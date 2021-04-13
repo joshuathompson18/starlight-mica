@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0161F92624F0B500DC7E01 /* Stress_MonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0161F82624F0B500DC7E01 /* Stress_MonitorApp.swift */; };
+		FE0161FB2624F0B500DC7E01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0161FA2624F0B500DC7E01 /* ContentView.swift */; };
+		FE0161FD2624F0B700DC7E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0161FC2624F0B700DC7E01 /* Assets.xcassets */; };
+		FE0162002624F0B700DC7E01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0161FF2624F0B700DC7E01 /* Preview Assets.xcassets */; };
+		FE01620B2624F0B700DC7E01 /* Stress_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01620A2624F0B700DC7E01 /* Stress_MonitorTests.swift */; };
+		FE0162162624F0B700DC7E01 /* Stress_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0162152624F0B700DC7E01 /* Stress_MonitorUITests.swift */; };
+		FE01621B2624F0B700DC7E01 /* Stress Monitor WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FE01621A2624F0B700DC7E01 /* Stress Monitor WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FE0162202624F0B800DC7E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE01621F2624F0B800DC7E01 /* Assets.xcassets */; };
+		FE0162272624F0B800DC7E01 /* Stress Monitor WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FE0162262624F0B800DC7E01 /* Stress Monitor WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FE01622C2624F0B800DC7E01 /* Stress_MonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01622B2624F0B800DC7E01 /* Stress_MonitorApp.swift */; };
+		FE01622E2624F0B800DC7E01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01622D2624F0B800DC7E01 /* ContentView.swift */; };
+		FE0162302624F0B800DC7E01 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01622F2624F0B800DC7E01 /* NotificationController.swift */; };
+		FE0162322624F0B800DC7E01 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0162312624F0B800DC7E01 /* NotificationView.swift */; };
+		FE0162342624F0B800DC7E01 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0162332624F0B800DC7E01 /* ComplicationController.swift */; };
+		FE0162362624F0B900DC7E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0162352624F0B900DC7E01 /* Assets.xcassets */; };
+		FE0162392624F0B900DC7E01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0162382624F0B900DC7E01 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE0162072624F0B700DC7E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0161ED2624F0B500DC7E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0161F42624F0B500DC7E01;
+			remoteInfo = "Stress Monitor";
+		};
+		FE0162122624F0B700DC7E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0161ED2624F0B500DC7E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0161F42624F0B500DC7E01;
+			remoteInfo = "Stress Monitor";
+		};
+		FE01621C2624F0B700DC7E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0161ED2624F0B500DC7E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0162192624F0B700DC7E01;
+			remoteInfo = "Stress Monitor WatchKit App";
+		};
+		FE0162282624F0B800DC7E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0161ED2624F0B500DC7E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0162252624F0B800DC7E01;
+			remoteInfo = "Stress Monitor WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE0162412624F0B900DC7E01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FE0162272624F0B800DC7E01 /* Stress Monitor WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162452624F0B900DC7E01 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FE01621B2624F0B700DC7E01 /* Stress Monitor WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE0161F52624F0B500DC7E01 /* Stress Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0161F82624F0B500DC7E01 /* Stress_MonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_MonitorApp.swift; sourceTree = "<group>"; };
+		FE0161FA2624F0B500DC7E01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE0161FC2624F0B700DC7E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0161FF2624F0B700DC7E01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE0162012624F0B700DC7E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0162062624F0B700DC7E01 /* Stress MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stress MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE01620A2624F0B700DC7E01 /* Stress_MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_MonitorTests.swift; sourceTree = "<group>"; };
+		FE01620C2624F0B700DC7E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0162112624F0B700DC7E01 /* Stress MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stress MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0162152624F0B700DC7E01 /* Stress_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_MonitorUITests.swift; sourceTree = "<group>"; };
+		FE0162172624F0B700DC7E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE01621A2624F0B700DC7E01 /* Stress Monitor WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Monitor WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE01621F2624F0B800DC7E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0162212624F0B800DC7E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0162262624F0B800DC7E01 /* Stress Monitor WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stress Monitor WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE01622B2624F0B800DC7E01 /* Stress_MonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_MonitorApp.swift; sourceTree = "<group>"; };
+		FE01622D2624F0B800DC7E01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE01622F2624F0B800DC7E01 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FE0162312624F0B800DC7E01 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		FE0162332624F0B800DC7E01 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FE0162352624F0B900DC7E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0162382624F0B900DC7E01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE01623A2624F0B900DC7E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE01623B2624F0B900DC7E01 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0161F22624F0B500DC7E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162032624F0B700DC7E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE01620E2624F0B700DC7E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162232624F0B800DC7E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0161EC2624F0B500DC7E01 = {
+			isa = PBXGroup;
+			children = (
+				FE0161F72624F0B500DC7E01 /* Stress Monitor */,
+				FE0162092624F0B700DC7E01 /* Stress MonitorTests */,
+				FE0162142624F0B700DC7E01 /* Stress MonitorUITests */,
+				FE01621E2624F0B700DC7E01 /* Stress Monitor WatchKit App */,
+				FE01622A2624F0B800DC7E01 /* Stress Monitor WatchKit Extension */,
+				FE0161F62624F0B500DC7E01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0161F62624F0B500DC7E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0161F52624F0B500DC7E01 /* Stress Monitor.app */,
+				FE0162062624F0B700DC7E01 /* Stress MonitorTests.xctest */,
+				FE0162112624F0B700DC7E01 /* Stress MonitorUITests.xctest */,
+				FE01621A2624F0B700DC7E01 /* Stress Monitor WatchKit App.app */,
+				FE0162262624F0B800DC7E01 /* Stress Monitor WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0161F72624F0B500DC7E01 /* Stress Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				FE0161F82624F0B500DC7E01 /* Stress_MonitorApp.swift */,
+				FE0161FA2624F0B500DC7E01 /* ContentView.swift */,
+				FE0161FC2624F0B700DC7E01 /* Assets.xcassets */,
+				FE0162012624F0B700DC7E01 /* Info.plist */,
+				FE0161FE2624F0B700DC7E01 /* Preview Content */,
+			);
+			path = "Stress Monitor";
+			sourceTree = "<group>";
+		};
+		FE0161FE2624F0B700DC7E01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE0161FF2624F0B700DC7E01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE0162092624F0B700DC7E01 /* Stress MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE01620A2624F0B700DC7E01 /* Stress_MonitorTests.swift */,
+				FE01620C2624F0B700DC7E01 /* Info.plist */,
+			);
+			path = "Stress MonitorTests";
+			sourceTree = "<group>";
+		};
+		FE0162142624F0B700DC7E01 /* Stress MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0162152624F0B700DC7E01 /* Stress_MonitorUITests.swift */,
+				FE0162172624F0B700DC7E01 /* Info.plist */,
+			);
+			path = "Stress MonitorUITests";
+			sourceTree = "<group>";
+		};
+		FE01621E2624F0B700DC7E01 /* Stress Monitor WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FE01621F2624F0B800DC7E01 /* Assets.xcassets */,
+				FE0162212624F0B800DC7E01 /* Info.plist */,
+			);
+			path = "Stress Monitor WatchKit App";
+			sourceTree = "<group>";
+		};
+		FE01622A2624F0B800DC7E01 /* Stress Monitor WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE01622B2624F0B800DC7E01 /* Stress_MonitorApp.swift */,
+				FE01622D2624F0B800DC7E01 /* ContentView.swift */,
+				FE01622F2624F0B800DC7E01 /* NotificationController.swift */,
+				FE0162312624F0B800DC7E01 /* NotificationView.swift */,
+				FE0162332624F0B800DC7E01 /* ComplicationController.swift */,
+				FE0162352624F0B900DC7E01 /* Assets.xcassets */,
+				FE01623A2624F0B900DC7E01 /* Info.plist */,
+				FE01623B2624F0B900DC7E01 /* PushNotificationPayload.apns */,
+				FE0162372624F0B900DC7E01 /* Preview Content */,
+			);
+			path = "Stress Monitor WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FE0162372624F0B900DC7E01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE0162382624F0B900DC7E01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0161F42624F0B500DC7E01 /* Stress Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0162462624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress Monitor" */;
+			buildPhases = (
+				FE0161F12624F0B500DC7E01 /* Sources */,
+				FE0161F22624F0B500DC7E01 /* Frameworks */,
+				FE0161F32624F0B500DC7E01 /* Resources */,
+				FE0162452624F0B900DC7E01 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE01621D2624F0B700DC7E01 /* PBXTargetDependency */,
+			);
+			name = "Stress Monitor";
+			productName = "Stress Monitor";
+			productReference = FE0161F52624F0B500DC7E01 /* Stress Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE0162052624F0B700DC7E01 /* Stress MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0162492624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress MonitorTests" */;
+			buildPhases = (
+				FE0162022624F0B700DC7E01 /* Sources */,
+				FE0162032624F0B700DC7E01 /* Frameworks */,
+				FE0162042624F0B700DC7E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0162082624F0B700DC7E01 /* PBXTargetDependency */,
+			);
+			name = "Stress MonitorTests";
+			productName = "Stress MonitorTests";
+			productReference = FE0162062624F0B700DC7E01 /* Stress MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE0162102624F0B700DC7E01 /* Stress MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE01624C2624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress MonitorUITests" */;
+			buildPhases = (
+				FE01620D2624F0B700DC7E01 /* Sources */,
+				FE01620E2624F0B700DC7E01 /* Frameworks */,
+				FE01620F2624F0B700DC7E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0162132624F0B700DC7E01 /* PBXTargetDependency */,
+			);
+			name = "Stress MonitorUITests";
+			productName = "Stress MonitorUITests";
+			productReference = FE0162112624F0B700DC7E01 /* Stress MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FE0162192624F0B700DC7E01 /* Stress Monitor WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0162422624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress Monitor WatchKit App" */;
+			buildPhases = (
+				FE0162182624F0B700DC7E01 /* Resources */,
+				FE0162412624F0B900DC7E01 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0162292624F0B800DC7E01 /* PBXTargetDependency */,
+			);
+			name = "Stress Monitor WatchKit App";
+			productName = "Stress Monitor WatchKit App";
+			productReference = FE01621A2624F0B700DC7E01 /* Stress Monitor WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FE0162252624F0B800DC7E01 /* Stress Monitor WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE01623E2624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress Monitor WatchKit Extension" */;
+			buildPhases = (
+				FE0162222624F0B800DC7E01 /* Sources */,
+				FE0162232624F0B800DC7E01 /* Frameworks */,
+				FE0162242624F0B800DC7E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stress Monitor WatchKit Extension";
+			productName = "Stress Monitor WatchKit Extension";
+			productReference = FE0162262624F0B800DC7E01 /* Stress Monitor WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0161ED2624F0B500DC7E01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FE0161F42624F0B500DC7E01 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FE0162052624F0B700DC7E01 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FE0161F42624F0B500DC7E01;
+					};
+					FE0162102624F0B700DC7E01 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FE0161F42624F0B500DC7E01;
+					};
+					FE0162192624F0B700DC7E01 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FE0162252624F0B800DC7E01 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FE0161F02624F0B500DC7E01 /* Build configuration list for PBXProject "Stress Monitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0161EC2624F0B500DC7E01;
+			productRefGroup = FE0161F62624F0B500DC7E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0161F42624F0B500DC7E01 /* Stress Monitor */,
+				FE0162052624F0B700DC7E01 /* Stress MonitorTests */,
+				FE0162102624F0B700DC7E01 /* Stress MonitorUITests */,
+				FE0162192624F0B700DC7E01 /* Stress Monitor WatchKit App */,
+				FE0162252624F0B800DC7E01 /* Stress Monitor WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0161F32624F0B500DC7E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0162002624F0B700DC7E01 /* Preview Assets.xcassets in Resources */,
+				FE0161FD2624F0B700DC7E01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162042624F0B700DC7E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE01620F2624F0B700DC7E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162182624F0B700DC7E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0162202624F0B800DC7E01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162242624F0B800DC7E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0162392624F0B900DC7E01 /* Preview Assets.xcassets in Resources */,
+				FE0162362624F0B900DC7E01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0161F12624F0B500DC7E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0161FB2624F0B500DC7E01 /* ContentView.swift in Sources */,
+				FE0161F92624F0B500DC7E01 /* Stress_MonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162022624F0B700DC7E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE01620B2624F0B700DC7E01 /* Stress_MonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE01620D2624F0B700DC7E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0162162624F0B700DC7E01 /* Stress_MonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0162222624F0B800DC7E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0162302624F0B800DC7E01 /* NotificationController.swift in Sources */,
+				FE01622E2624F0B800DC7E01 /* ContentView.swift in Sources */,
+				FE0162342624F0B800DC7E01 /* ComplicationController.swift in Sources */,
+				FE01622C2624F0B800DC7E01 /* Stress_MonitorApp.swift in Sources */,
+				FE0162322624F0B800DC7E01 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE0162082624F0B700DC7E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0161F42624F0B500DC7E01 /* Stress Monitor */;
+			targetProxy = FE0162072624F0B700DC7E01 /* PBXContainerItemProxy */;
+		};
+		FE0162132624F0B700DC7E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0161F42624F0B500DC7E01 /* Stress Monitor */;
+			targetProxy = FE0162122624F0B700DC7E01 /* PBXContainerItemProxy */;
+		};
+		FE01621D2624F0B700DC7E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0162192624F0B700DC7E01 /* Stress Monitor WatchKit App */;
+			targetProxy = FE01621C2624F0B700DC7E01 /* PBXContainerItemProxy */;
+		};
+		FE0162292624F0B800DC7E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0162252624F0B800DC7E01 /* Stress Monitor WatchKit Extension */;
+			targetProxy = FE0162282624F0B800DC7E01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE01623C2624F0B900DC7E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE01623D2624F0B900DC7E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE01623F2624F0B900DC7E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stress Monitor WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stress Monitor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-Monitor.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		FE0162402624F0B900DC7E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stress Monitor WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stress Monitor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-Monitor.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		FE0162432624F0B900DC7E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Stress_Monitor_WatchKit_Extension;
+				INFOPLIST_FILE = "Stress Monitor WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-Monitor.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		FE0162442624F0B900DC7E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Stress_Monitor_WatchKit_Extension;
+				INFOPLIST_FILE = "Stress Monitor WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-Monitor.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		FE0162472624F0B900DC7E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stress Monitor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stress Monitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0162482624F0B900DC7E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stress Monitor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stress Monitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE01624A2624F0B900DC7E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stress MonitorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress Monitor.app/Stress Monitor";
+			};
+			name = Debug;
+		};
+		FE01624B2624F0B900DC7E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stress MonitorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress Monitor.app/Stress Monitor";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE01624D2624F0B900DC7E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stress MonitorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stress Monitor";
+			};
+			name = Debug;
+		};
+		FE01624E2624F0B900DC7E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stress MonitorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Thompson.Stress-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stress Monitor";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0161F02624F0B500DC7E01 /* Build configuration list for PBXProject "Stress Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE01623C2624F0B900DC7E01 /* Debug */,
+				FE01623D2624F0B900DC7E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE01623E2624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress Monitor WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE01623F2624F0B900DC7E01 /* Debug */,
+				FE0162402624F0B900DC7E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0162422624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress Monitor WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0162432624F0B900DC7E01 /* Debug */,
+				FE0162442624F0B900DC7E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0162462624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0162472624F0B900DC7E01 /* Debug */,
+				FE0162482624F0B900DC7E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0162492624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE01624A2624F0B900DC7E01 /* Debug */,
+				FE01624B2624F0B900DC7E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE01624C2624F0B900DC7E01 /* Build configuration list for PBXNativeTarget "Stress MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE01624D2624F0B900DC7E01 /* Debug */,
+				FE01624E2624F0B900DC7E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0161ED2624F0B500DC7E01 /* Project object */;
+}
